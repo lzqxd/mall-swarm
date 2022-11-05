@@ -12,6 +12,7 @@ import javax.validation.constraints.NotNull;
  */
 @ApiModel(value = "PmsBrandDto")
 public class PmsBrandDto {
+
     @ApiModelProperty(value = "品牌名称",required = true)
     @NotNull(message = "名称不能为空")
     private String name;
