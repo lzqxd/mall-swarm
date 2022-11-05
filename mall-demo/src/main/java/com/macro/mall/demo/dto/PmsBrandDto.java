@@ -8,7 +8,7 @@ import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 
 /**
- * 品牌传递参数
+ * 品牌传递的参数
  */
 @ApiModel(value = "PmsBrandDto")
 public class PmsBrandDto {
